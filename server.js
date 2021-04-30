@@ -36,6 +36,10 @@ app.get("/ser", (req, res) => {
   });
 });
 
+app.get("/", (req, res) => {
+res.sendFile(path.resolve('public/index.html'));
+});
+
 /* POST request from client*/
 app.post("/req", (req, res) => {
   // console.log(Object.values(req.body));
