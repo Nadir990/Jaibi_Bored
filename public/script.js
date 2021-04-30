@@ -13,7 +13,7 @@ cb2 = document.getElementById("combo2");
 /*GET random activity */
 bt1.addEventListener("click", async () => {
   r.style.display = "block";
-  const url = "http://localhost:3000/ser/";
+  const url = "ser/";
   await fetch(url, { headers: { Accept: "application/json" } })
     .then(response => {
       return response.json();
@@ -44,7 +44,7 @@ bt2.addEventListener("click", async () => {
   let data = GetCombox();
   let data3 = GetCombox2();
   let data2 = { data, data3 };
-  const url = "http://localhost:3000/req/";
+  const url = "req/";
   const request = await fetch(url, {
     method: "POST",
     headers: {
