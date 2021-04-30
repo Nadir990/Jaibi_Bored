@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kotta+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Galindo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+background: #FEBE10;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Galindo", cursive;
+}
+.btn1 {
+  font-family: "Galindo", cursive;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  height: 38px;
+  line-height: 40px;
+  border: 1px solid black;
+  float: none;
+  text-align: center;
+  width: 15.5%;
+  padding: 0px !important;
+  font-size: 20px;
+  color: black;
+  position: absolute;
+  bottom: 51%;
+  border-radius: 20px;
+}
+
+.btn1:hover {
+  color: black;
+  background: orangered;
+  box-shadow: 0 0 10px orangered, 0 0 40px orangered, 0 0 80px orangered;
+}
+
+.btn2 {
+  font-family: "Galindo", cursive;
+  margin: 0 5px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  height: 38px;
+  line-height: 40px;
+  border: 1px solid black;
+  display: inline-block;
+  float: none;
+  text-align: center;
+  width: 200px;
+  padding: 0px !important;
+  font-size: 20px;
+  color: black;
+  border-radius: 20px;
+}
+
+.btn2:hover {
+  color: black;
+  background: orangered;
+  box-shadow: 0 0 10px orangered, 0 0 40px orangered, 0 0 80px orangered;
+}
+
+.jumbo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Galindo", cursive;
+  /* margin-top: 15%; --> per spostare giu*/
+}
+
+.jumbo2 {
+  margin-top: 10px;
+}
+
+.select {
+  font-family: "Galindo", cursive;
+  font-size: 16.5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  color: #fff;
+  display: flex;
+  padding: 15px 30px;
+  flex-direction: column;
+  background-color: #232323;
+  margin-top: 60px;
+  border-radius: 15px;
+}
+.p {
+  font-family: "Kotta One", serif;
+  font-size: 30px;
+}
+.lb {
+  font-size: 22px;
+}
+#h2 {
+  text-align: center;
+}
+
+.sub_div {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.boh {
+  text-decoration: underline;
+  margin-right: 110px;
+  font-family: "Galindo", cursive;
+  font-size: 20px;
+}

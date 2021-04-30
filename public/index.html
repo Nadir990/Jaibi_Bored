@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <title>Bored_Nadir</title>
+  </head>
+  <body>
+    <h1>Are you bored ?</h1>
+    <div class="jumbo">
+      &nbsp; &nbsp;
+      <div class="jumbo2">
+        <label class="lb">Choose a type of activity: </label>
+        <select class="select" id="combo" name="myselect">
+          <option value="charity">Charity</option>
+          <option value="education">Education</option>
+          <option value="recreational">Recreational</option>
+          <option value="social">Social</option>
+          <option value="diy">Diy(fai da te)</option>
+          <option value="cooking">Cooking</option>
+          <option value="music">Music</option>
+          <option value="relaxation">Relaxation</option>
+          <option value="busywork">Busywork</option>
+        </select>
+        <label class="lb">Participants ? </label>
+        <select class="select" id="combo2" name="myselect">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <button type="submit" id="bt2" class="btn2">Find my activity !</button>
+        <button type="submit" id="bt3" class="btn2">Clear</button>
+      </div>
+    </div>
+    <div class="container">
+      <div id="result" class="box">
+        <h2 id="h2" style="font-family: Bungee Inline" , cursive;>
+          Here is your activity:
+        </h2>
+        <p class="p" id="ac"></p>
+        <p class="p" id="ty"></p>
+        <p class="p" id="pa"></p>
+        <p class="p" id="pr"></p>
+      </div>
+      <button type="submit" id="bt1" class="btn1">
+        Get a random Activity !
+      </button>
+    </div>
+    <div class="sub_div">
+      <p class="boh">Made by N.J</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
